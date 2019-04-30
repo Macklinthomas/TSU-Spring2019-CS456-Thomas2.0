@@ -14,3 +14,4 @@ for line in fileHandler:    #This loops through the file and finds the words and
         else:
             counts[word] += 1       #Keep count of the word if its already stored.
 print counts                           #Prints the dictionary.
+#To fulfill enhancement: Give the count and length of each word, as well as if it starts with a digit or alpha.
